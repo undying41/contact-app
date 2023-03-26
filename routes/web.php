@@ -24,3 +24,7 @@ Route::get('/contacts', function() {
 Route::get('/contacts/create', function() {
     return "<h1>Add new contact</h1>";
 });
+
+Route::get('/contacts/about', function() {
+    return "<h1>About</h1>";
+});
